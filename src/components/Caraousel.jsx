@@ -9,7 +9,7 @@ function Caraousel() {
     <Carousel fade interval={1000}>
       <Carousel.Item>
         <img
-          src="https://as2.ftcdn.net/v2/jpg/02/26/10/79/1000_F_226107911_EVYZZCnILvbKB7JNF4nApalxZ79jZMfe.jpg"
+          src="https://www.shropshire-eyecare.co.uk/Services/Childrens-Eye-Care/photo.jpg"
           text="First slide"
         />
         <Carousel.Caption>
@@ -19,7 +19,7 @@ function Caraousel() {
       </Carousel.Item>
       <Carousel.Item>
         <img
-          src="https://miro.medium.com/v2/resize:fit:1000/1*y76r8MzO8sGy6qzrQJHJvA.jpeg"
+          src="https://hikmaheye.org/images/retina_services.png"
           text="Second slide"
         />
         <Carousel.Caption>
@@ -29,7 +29,7 @@ function Caraousel() {
       </Carousel.Item>
       <Carousel.Item>
         <img
-          src="https://publications.computer.org/computer-magazine/wp-content/uploads/sites/25/2018/11/ocular-biometrics1000x400.jpg"
+          src="https://basirclinic.com/en/wp-content/uploads/2018/10/lasek-min.jpg"
           text="Third slide"
         />
         <Carousel.Caption>
