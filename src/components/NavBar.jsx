@@ -11,7 +11,7 @@ function NavBar() {
           <Navbar.Brand href="#home">Tele Netra Rugnalay </Navbar.Brand>
           <Nav className="me-auto">
             <Nav.Link href="#home">Home</Nav.Link>
-            <Nav.Link href="#treatments">Treatments</Nav.Link>
+            <Nav.Link  href="#treatments">Treatments</Nav.Link>
             <Nav.Link href="#aboutus">About us</Nav.Link>
             <Nav.Link href="#gallery">Gallery</Nav.Link>
             <Nav.Link href="#Video">Video</Nav.Link>
