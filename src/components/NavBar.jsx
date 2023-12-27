@@ -2,6 +2,8 @@ import React from "react";
 import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
+import NavDropdown from 'react-bootstrap/NavDropdown';
+
 
 function NavBar() {
   return (
@@ -15,7 +17,11 @@ function NavBar() {
             <Nav.Link href="#aboutus">About us</Nav.Link>
             <Nav.Link href="#gallery">Gallery</Nav.Link>
             <Nav.Link href="#Video">Video</Nav.Link>
-            <Nav.Link href="#contactus">Contact Us</Nav.Link>
+            <NavDropdown title="Contact Us" id="basic-nav-dropdown">
+              <NavDropdown.Item href="#action/3.1">Whatsapp</NavDropdown.Item>
+              <NavDropdown.Item href="#action/3.2">Email</NavDropdown.Item>
+              <NavDropdown.Item href="#action/3.3">Phone</NavDropdown.Item>
+            </NavDropdown>
           </Nav>
         </Container>
       </Navbar>
