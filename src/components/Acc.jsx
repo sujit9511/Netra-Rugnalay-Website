@@ -3,10 +3,10 @@ import Accordion from "react-bootstrap/Accordion";
 
 function Acc() {
   return (
-    <Accordion>
-      <Accordion.Item eventKey="0">
-        <Accordion.Header>Retina surgery</Accordion.Header>
-        <Accordion.Body>
+    <Accordion defaultActiveKey={['0']} alwaysOpen>
+    <Accordion.Item eventKey="0">
+      <Accordion.Header>Retina surgery</Accordion.Header>
+      <Accordion.Body>
         Retina surgery is a delicate procedure performed to address conditions affecting the thin, light-sensitive tissue at the back of the eye. Surgeons use advanced techniques, such as vitrectomy, to remove or repair damaged areas in the retina. Precision is crucial to restore or enhance vision by addressing issues like retinal detachment, macular holes, or diabetic retinopathy. Microscopic instruments and laser technology may be employed to achieve optimal outcomes. Close post-operative monitoring is essential for successful recovery and improved visual function.
         </Accordion.Body>
       </Accordion.Item>
